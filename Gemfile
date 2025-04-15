@@ -2,11 +2,8 @@ source 'https://rubygems.org'
 
 gem 'sinatra'
 gem 'sinatra-contrib'
-gem 'httparty' 
-gem 'dotenv' 
+gem 'json'
+gem 'puma'
+gem 'rackup'
+gem 'faraday'
 gem 'rack-cors'
-
-group :development, :test do
-  gem 'rspec'
-  gem 'pry'
-end
